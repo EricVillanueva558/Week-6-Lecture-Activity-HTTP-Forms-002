@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Specifies the character encoding for the document as UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the webpage responsive on different devices -->
+  <title>One Piece Theme Selector</title> <!-- Sets the title of the webpage -->
+</head>
+<body>
+  <h1>One Piece Theme Selector</h1> <!-- Main heading for the page -->
+
+  <!-- Form to capture user's favorite One Piece character and theme color -->
+  <form id="onePieceForm">
+    <!-- Input for the user's favorite One Piece character -->
+    <label for="favCharacter">Enter your favorite One Piece character:</label> <!-- Label for text input -->
+    <input type="text" id="favCharacter" name="favCharacter" placeholder="e.g., Luffy"> <!-- Text input field -->
+
+    <!-- Input for the user's preferred color -->
+    <label for="themeColor">Choose your One Piece theme color:</label> <!-- Label for color input -->
+    <input type="color" id="themeColor" name="themeColor"> <!-- Color input field -->
+
+    <!-- Submit button to save form inputs -->
+    <button type="submit">Save Preferences</button> <!-- Button to submit the form -->
+  </form>
+
+  <!-- Link to the external JavaScript file -->
+  <script src="script.js"></script> <!-- Script that contains event handlers and localStorage logic -->
+</body>
+</html>
